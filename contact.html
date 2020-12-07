@@ -32,19 +32,39 @@
 
     <!-- ##### Header Area Start ##### -->
     <header class="header-area"> 
+        <!-- Top Header Area -->
+        <div class="top-header-area">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 d-flex justify-content-between">
+                        <!-- Logo Area -->
+                        <div class="logo">
+                            <a href="#"><img src="img/core-img/lic 11.png" alt=""></a>
+                        </div>
+                        <!-- Top Contact Info -->
+                        <div class="top-contact-info d-flex align-items-center">
+                              <a href="mail:lglic1998@yahoo.com" data-toggle="tooltip" data-placement="bottom" title="lglic1998@yahoo.com"><img src="img/core-img/message.png" alt="">  Ganapathy L. (CM Club) </a>
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="232, NSC Bose Road, Parrys, Chennai-1"><img src="img/core-img/placeholder.png" alt=""> <span>232, NSC Bose Road, Parrys, Chennai-1. </span></a>
+                            <a href="mail:lglic1998@yahoo.com" data-toggle="tooltip" data-placement="bottom" title="lglic1998@yahoo.com"><img src="img/core-img/message.png" alt=""> <span>lglic1998@yahoo.com</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
 
         <!-- Navbar Area -->
         <div class="credit-main-menu" id="sticker">
             <div class="classy-nav-container breakpoint-off">
                 <div class="container">
                     <!-- Menu -->
-                    <nav class="classy-navbar justify-content-between" id="creditNav"> 
+                    <nav class="classy-navbar justify-content-between" id="creditNav">
 
-                        <!-- Navbar Toggler --> 
-
+                        <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
                             <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
+                        </div>  
+
                         <!-- Menu -->
                         <div class="classy-menu">
 
@@ -54,15 +74,12 @@
                             </div>
 
                             <!-- Nav Start -->
-                            <div class="classynav">
+                            <div class="classynav"> 
                                 <ul> 
-                                     <li><a href="#">  </a></li>
-                                      <li><a href="#">   </a></li>
-                                       <li><a href="#">  </a></li>
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About Us</a></li>
-                                     <li><a href="policy.html">Policies</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="policy.html">Policy</a> </li>
+                                    <li><a href="contact.html">Contact</a></li> 
                                 </ul>
                             </div>
                             <!-- Nav End -->
@@ -70,7 +87,8 @@
 
                         <!-- Contact -->
                         <div class="contact">
-                            <h2> Call  <a href="tel:9444277210 ">   9444277210 </a></h2> 
+                        
+                          <a href="tel:9444277210"><img src="img/core-img/lic 1.png" alt="">    <img src="img/core-img/call2.png" alt=""> 9444277210 </a>
                         </div>
                     </nav>
                 </div>
@@ -80,7 +98,7 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breadcrumb Area Start ##### -->
-    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/13.jpg);">
+    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/6.jpg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -100,9 +118,8 @@
     <!-- ##### Breadcrumb Area End ##### -->
 
     <!-- ##### Contact Area Start ##### -->
-    <section class="contact-area section-padding-100-0"> 
+    <section class="contact-area section-padding-100-0" style="background-image: url(img/bg-img/6.jpg);"> 
         <div class="map-area">
-            <iframe src="https://goo.gl/maps/fnwF5nTNmJCVRRrDA" allowfullscreen></iframe>
             <!-- Contact Area -->
             <div class="contact---area">
                 <div class="container">
@@ -110,34 +127,35 @@
                         <div class="col-12 col-lg-8">
                             <!-- Contact Area -->
                             <div class="contact-form-area contact-page">
-                                <h4 class="mb-50">Send a message</h4>
-
-                                <form action="sarumathy.gk@gmail.com" method="post">
+                                <h4 class="mb-50" style="text-align: center; color: orange;">Send a message</h4> 
+                                 <h4 class="mb-50">GANAPATHY L.<br> CHAIRMAN CLUB <br> CBO-7</h4> 
+                                 <form action="https://formspree.io/f/xdopwobv" method="POST">
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                                <input type="text" class="form-control" name="name" placeholder="Your Name">
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="form-group">
-                                                <input type="email" class="form-control" id="email" placeholder="Your E-mail">
+                                                <input type="email" class="form-control" name="email" placeholder="Your E-mail">
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" id="subject" placeholder="Your Subject">
+                                                <input type="text" class="form-control" name="subject" placeholder="Your Subject">
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group">
-                                                <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                                                <textarea name="message" class="form-control" name="message" cols="30" rows="5" placeholder="Your Message"></textarea>
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <button class="btn credit-btn mt-30" type="submit">Send</button>
-                                        </div>
+                                        </div> 
                                     </div>
+                                     <p>Yogakshemam Vahamyaham [Your welfare is our responsibility]</p>
                                 </form>
                             </div>
                         </div>
@@ -148,25 +166,9 @@
     </section>
     <!-- ##### Contact Area End ##### -->
 
-   <section class="newsletter-area section-padding-100 bg-img jarallax" style="background-image: url(img/bg-img/6.jpg);">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-sm-10 col-lg-8">
-                    <div class="nl-content text-center">
-                        <h2>Send your queries </h2>
-                        <form action="#" method="post">
-                            <input type="email" name="nl-email" id="nlemail" placeholder="Your e-mail">
-                            <button type="submit">Send</button>
-                        </form>
-                        <p>Yogakshemam Vahamyaham [Your welfare is our responsibility]</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
     <!-- ##### Newsletter Area End ###### -->
 
-    <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area section-padding-100-0">
         <div class="container">
             <div class="row">
@@ -174,7 +176,7 @@
                 <!-- Single Footer Widget -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-footer-widget mb-100">
-                        <h5 class="widget-title">About Us</h5>
+                        <h5 class="widget-title">OUR MOTO</h5>
                         <!-- Nav -->
                         <nav>
                             <ul>
@@ -185,41 +187,42 @@
                     </div>
                 </div>
 
-                <!-- Single Footer Widget -->
+                
+                  <!-- Single Footer Widget -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-footer-widget mb-100">
-                        <h5 class="widget-title">Policies</h5>
+                        <h5 class="widget-title">SERVICES</h5>
                         <!-- Nav -->
                         <nav>
                             <ul>
-                                <li><a href="#">Endowment plan</a></li>
-                                <li><a href="#">Moneyback plan</a></li> 
+                                <li><a href="#">Full Time Agent</a></li>
+                                <li><a href="#">Door Step Services</a></li> 
+                        </nav>
+                    </div>
+                </div> 
+                <!-- Single Footer Widget -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-100">
+                        <h5 class="widget-title">PERSONAL OFFICE</h5>
+                        <!-- Nav -->
+                        <nav>
+                            <ul>
+                                <li><a href="#"> Ganapathy L. (CM Club)<br> New no: 25, Sri Sakthi Nagar Main Road, 100 feet road, <br> Arumbakkam, Chennai - 106.</a></li> 
+                                <li><a href="#">9444277210 <br>lglic1998@yahoo.com</a></li> 
                             </ul>
                         </nav>
                     </div>
                 </div>
 
-                  <!-- Single Footer Widget -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget mb-100">
-                        <h5 class="widget-title">Policies</h5>
-                        <!-- Nav -->
-                        <nav>
-                            <ul>
-                                <li><a href="#">Children plan</a></li>
-                                <li><a href="#">Whole life plan</a></li> 
-                        </nav>
-                    </div>
-                </div> 
 
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-footer-widget mb-100">
-                        <h5 class="widget-title">Address</h5>
+                        <h5 class="widget-title">MAIN OFFICE</h5>
                         <!-- Nav -->
                         <nav>
                             <ul>
-                                <li><a href="#"> 232, N.S.C. Bose Road, Paris, Chennai - 600 001.</a></li>
-                                <li><a href="#"> lglic1998@yahoo.com</a></li> 
+                                <li><a href="#"> Ganapathy L. (CM Club)<br> 232, N.S.C. Bose Road, Paris, Chennai - 600 001.</a></li>
+                                <li><a href="#">9444277210 <br>lglic1998@yahoo.com</a></li> 
                         </nav>
                     </div>
                 </div> 
