@@ -169,4 +169,14 @@
         new WOW().init();
     }
 
+    /*Confirmation*/
+    $(".confirm").on("click", function(event){
+    if(confirm("Are you Sure ?")){
+       return true;
+    } else {
+        event.preventDefault();
+        return false;
+    }
+});
+
 })(jQuery);
