@@ -237,7 +237,7 @@ img {
     cursor: pointer; }
     .classy-navbar-toggler .navbarToggler span {
       position: relative;
-      background-color: #858585;
+      background-color: white;
       border-radius: 3px;
       display: block;
       height: 3px;
@@ -290,39 +290,7 @@ img {
   .classynav ul li .megamenu .single-mega .title {
     font-size: 14px;
     border-bottom: 1px solid #f2f4f8;
-    padding: 8px 12px; }
-.classynav ul li .dropdown li a {
-  border-bottom: 1px solid rgba(242, 244, 248, 0.7); }
-.classynav ul li .dropdown li:last-child a {
-  border-bottom: none; }
-.classynav ul li .dropdown li .dropdown li a {
-  border-bottom: 1px solid rgba(242, 244, 248, 0.7); }
-.classynav ul li .dropdown li .dropdown li:last-child a {
-  border-bottom: none; }
-.classynav ul li .dropdown li .dropdown li .dropdown li a {
-  border-bottom: 1px solid rgba(242, 244, 248, 0.7); }
-.classynav ul li .dropdown li .dropdown li .dropdown li:last-child a {
-  border-bottom: none; }
-.classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li a {
-  border-bottom: 1px solid rgba(242, 244, 248, 0.7); }
-.classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li:last-child a {
-  border-bottom: none; }
-.classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li a {
-  border-bottom: 1px solid rgba(242, 244, 248, 0.7); }
-.classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:last-child a {
-  border-bottom: none; }
-.classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li a {
-  border-bottom: 1px solid rgba(242, 244, 248, 0.7); }
-.classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:last-child a {
-  border-bottom: none; }
-.classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li a {
-  border-bottom: 1px solid rgba(242, 244, 248, 0.7); }
-.classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:last-child a {
-  border-bottom: none; }
-.classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li a {
-  border-bottom: 1px solid rgba(242, 244, 248, 0.7); }
-.classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:last-child a {
-  border-bottom: none; }
+    padding: 8px 12px; } 
 
 /* Desktop Area CSS */
 .breakpoint-off .classynav {
@@ -352,34 +320,7 @@ img {
     left: 180px;
     z-index: 200;
     opacity: 0;
-    visibility: hidden; }
-.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown,
-.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown,
-.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown,
-.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown,
-.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown,
-.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown,
-.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown,
-.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown {
-  opacity: 0;
-  visibility: hidden;
-  top: 120%; }
-.breakpoint-off .classynav ul li:hover .dropdown {
-  opacity: 1;
-  visibility: visible;
-  top: 100%; }
-.breakpoint-off .classynav ul li .dropdown li:hover .dropdown,
-.breakpoint-off .classynav ul li .dropdown li .dropdown li:hover .dropdown,
-.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li:hover .dropdown,
-.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li:hover .dropdown,
-.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:hover .dropdown,
-.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:hover .dropdown,
-.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:hover .dropdown,
-.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:hover .dropdown,
-.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:hover .dropdown {
-  opacity: 1;
-  visibility: visible;
-  top: -10px; }
+    visibility: hidden; }  
 .breakpoint-off .classynav ul li .megamenu {
   opacity: 0;
   visibility: hidden;
@@ -427,18 +368,7 @@ img {
   .breakpoint-on .classynav ul li a {
     padding: 0 10px;
     height: 38px;
-    line-height: 38px; }
-  .breakpoint-on .classynav ul li .dropdown {
-    width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
-    box-shadow: none; }
-    .breakpoint-on .classynav ul li .dropdown li .dropdown {
-      width: 100%;
-      position: relative;
-      top: 0;
-      left: 0; }
+    line-height: 38px; } 
   .breakpoint-on .classynav ul li.megamenu-item {
     position: relative;
     z-index: 10; }
@@ -448,10 +378,7 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  display: block; }
-.breakpoint-on .classynav ul li .dropdown,
-.breakpoint-on .classynav ul li .megamenu {
-  display: none; }
+  display: block; } 
 .breakpoint-on .classynav {
   padding-top: 70px; }
   .breakpoint-on .classynav ul li .megamenu {
@@ -469,9 +396,7 @@ img {
       border-bottom: 1px solid #f2f4f8; }
 .breakpoint-on .classynav > ul > li > a {
   background-color: #f2f4f8;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
-.breakpoint-on .classynav ul li ul.dropdown li ul li {
-  margin-left: 15px; }
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); } 
 .breakpoint-on .classy-btn {
   width: calc(100% - 30px);
   margin: 30px 15px; }
@@ -491,9 +416,7 @@ img {
   .dark.classy-nav-container a {
     color: rgba(255, 255, 255, 0.7); }
     .dark.classy-nav-container a:hover, .dark.classy-nav-container a:focus {
-      color: #ffffff; }
-.dark .classynav ul li .dropdown {
-  background-color: #192a56; }
+      color: #ffffff; } 
 .dark .classynav ul li .megamenu {
   background-color: #192a56; }
 .dark .classynav ul li .megamenu .single-mega.cn-col-5,
@@ -518,40 +441,7 @@ img {
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   border-right: none; }
 .dark .classynav ul li.megamenu-item > a:after {
-  color: #ffffff; }
-.dark .classynav ul li .dropdown li a {
-  border-bottom: 1px solid rgba(242, 244, 248, 0.1); }
-.dark .classynav ul li .dropdown li:last-child a {
-  border-bottom: none; }
-.dark .classynav ul li .dropdown li .dropdown li a {
-  border-bottom: 1px solid rgba(242, 244, 248, 0.1); }
-.dark .classynav ul li .dropdown li .dropdown li:last-child a {
-  border-bottom: none; }
-.dark .classynav ul li .dropdown li .dropdown li .dropdown li a {
-  border-bottom: 1px solid rgba(242, 244, 248, 0.1); }
-.dark .classynav ul li .dropdown li .dropdown li .dropdown li:last-child a {
-  border-bottom: none; }
-.dark .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li a {
-  border-bottom: 1px solid rgba(242, 244, 248, 0.1); }
-.dark .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li:last-child a {
-  border-bottom: none; }
-.dark .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li a {
-  border-bottom: 1px solid rgba(242, 244, 248, 0.1); }
-.dark .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:last-child a {
-  border-bottom: none; }
-.dark .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li a {
-  border-bottom: 1px solid rgba(242, 244, 248, 0.1); }
-.dark .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:last-child a {
-  border-bottom: none; }
-.dark .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li a {
-  border-bottom: 1px solid rgba(242, 244, 248, 0.1); }
-.dark .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:last-child a {
-  border-bottom: none; }
-.dark .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li a {
-  border-bottom: 1px solid rgba(242, 244, 248, 0.1); }
-.dark .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:last-child a {
-  border-bottom: none; }
-
+  color: #ffffff; } 
 /* Right Side Menu Open CSS */
 .right.breakpoint-on .classy-navbar .classy-menu {
   left: auto;
@@ -559,32 +449,6 @@ img {
 .right.breakpoint-on .classy-navbar .classy-menu.menu-on {
   left: auto;
   right: 0; }
-
-/* Dropdown RTL CSS */
-.dropdown-rtl.breakpoint-off .classynav ul li .dropdown {
-  left: auto;
-  right: 0; }
-.dropdown-rtl .classynav ul li a,
-.dropdown-rtl .classynav ul li .megamenu .single-mega .title {
-  text-align: right; }
-.dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown {
-  right: 180px;
-  left: auto;
-  opacity: 0;
-  visibility: hidden;
-  top: 10px; }
-.dropdown-rtl.breakpoint-off .classynav ul li:hover .dropdown {
-  opacity: 1;
-  visibility: visible;
-  top: 90%; }
-.dropdown-rtl.breakpoint-off .classynav ul li .dropdown li:hover .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li:hover .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li:hover .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li:hover .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:hover .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:hover .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:hover .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:hover .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:hover .dropdown {
-  opacity: 1;
-  visibility: visible;
-  top: 0; }
-.dropdown-rtl.breakpoint-on .classynav ul li ul.dropdown li ul li {
-  margin-left: 0;
-  margin-right: 15px; }
-
-/* Fallback Responsive CSS */
+  
 
 /*# sourceMappingURL=classy-nav.css.map */

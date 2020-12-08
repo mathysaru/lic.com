@@ -1819,18 +1819,18 @@ img {
       margin: 0 2px;
       border-radius: 6px;
       font-size: 16px;
-      font-weight: 520; }
+      font-weight: 500; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .credit-tabs-content .nav-tabs .nav-link {
-          padding: 0 8px;
+          padding: 0 10px;
           font-size: 14px; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .credit-tabs-content .nav-tabs .nav-link {
-          padding: 0 8px;
+          padding: 0 10px;
           font-size: 14px; } }
       @media only screen and (max-width: 767px) {
         .credit-tabs-content .nav-tabs .nav-link {
-          padding: 0 8px;
+          padding: 0 10px;
           font-size: 14px; } }
       .credit-tabs-content .nav-tabs .nav-link.active {
         background-color: #003679;
