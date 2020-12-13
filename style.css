@@ -1741,7 +1741,7 @@ img {
   margin-bottom: 0; }
   .single-accordion h6 a {
     font-family: "Open Sans", sans-serif;
-    background-color: #003679;
+    background-color: #ffbb38;
     border-radius: 5px;
     color: #ffffff;
     display: block;
@@ -1769,7 +1769,7 @@ img {
     .single-accordion h6 a.collapsed {
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms;
-      background-color: #ffbb38;
+      background-color: #003679;
       color: #ffffff; }
 .single-accordion .accordion-content {
   border-top: 0 solid transparent;
@@ -1811,7 +1811,7 @@ img {
     border-bottom: none;
     margin-bottom: 15px; }
     .credit-tabs-content .nav-tabs .nav-link {
-      background-color: lightblue;
+      background-color: #ffbb38;
       padding: 0 10px;
       height: 50px;
       line-height: 50px;
