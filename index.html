@@ -100,7 +100,7 @@
                 <div class="col-12 col-md-6">
                     <div class="about-content mb-30"> 
                         <h3>Mr. GANAPATHY L.  </h3>
-                        <p class="mb-0">I am a Chief Life Insurance Advisor of Chairman Club. Since 1998 I have been Working in LIC.  I'm here for you people to help when you are in required of New Policies, Maturity Claims, Change Of Address, Change Of Nominee, Change Of Branch. I'll solve all your needs under LIC. Your Welfare Is Our Responsibilites. Insure And Secure.</p> 
+                        <p class="mb-0">I am a Chief Life Insurance Advisor of Chairman Club. Since 1998 I have been Working in LIC.  I'm here for you people to help when you are in required of New Policies, Maturity Claims, Change Of Address, Change Of Nominee, Change Of Branch. I'll solve all your needs under LIC. Your Welfare Is Our Responsibilites. Insure And Be Secure.</p> 
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
@@ -438,22 +438,14 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-sm-10 col-lg-8">
                     <div class="nl-content text-center">
-                        <h2>Send your queries </h2>
-                        <form action="https://www.formbackend.com/f/76f1e3d37092451d" method="POST" id="myForm"> 
-                         <input type="text" onfocus="this.value=''" value="" name="queries" placeholder="Your Queries">
-                        <a href="#"> <button type="submit" class="confirm" value="Submit" id="btnsubmit" onclick="submitForm()" value="Send">SEND </a></button>  
-                        </form>  
-                        <script>function submitForm() {
-   // Get the first form with the name
-   // Usually the form name is not repeated
-   // but duplicate names are possible in HTML
-   // Therefore to work around the issue, enforce the correct index
-   var frm = document.getElementsByName('myForm')[0];
-   frm.submit(); // Submit the form
-   frm.reset();  // Reset all form data
-   return false; // Prevent page refresh
-}
-                        </script>
+                        <h2>Send your queries </h2> 
+                        <form role="form" action="submit.php" method="post">
+                        <input name="name" required="required" type="text" placeholder="Enter Your Name" />
+                        <input name="email" required="required" type="email" placeholder="Email ID"/> 
+                        <input name="message" requires="requires" type="text" placeholder="Enter Any Message"/>
+                        <input name="submit" type="submit" value="Send a Mail" /> 
+                        <input type="reset" value="Clear"></form>
+                          
                     </div>
                 </div>
             </div>
